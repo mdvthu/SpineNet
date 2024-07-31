@@ -6,7 +6,7 @@ readme = "README.md"
 license = { file = "LICENCE.md" }
 
 [tool.setuptools]
-packages = ["spinenet"]
+packages = ["spinenet", "spinenet.io", "spinenet.models", "spinenet.utils"]
 
 [tool.black]
 line-length = 79
